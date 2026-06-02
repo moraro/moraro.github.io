@@ -1,1 +1,67 @@
-# moraro-moraro.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit=no>
+    <title>Portifolio pessoal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gasoek+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+    <body>
+        <header class="menu-bg">       
+            <div class="menu">
+                <div class="menu-logo">
+                    <a href="#">Vinicius Moraro</a>
+                </div>
+                <nav class="menu-nav">
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#formacoes">Formações</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <h1 class="introducao">Portifólio pessoal<br>Vinicius Moraro</h1>
+                <div class="inicio-img">
+                    <img src="Captura de tela 2026-01-21 194317.png">
+                </div>
+                <selection class="sobre" id="sobre">
+                <div class="sobre-info">
+                    <h1>Sobre</h1>
+                    <p>Sou <strong>estudante de Gestão da tecnologia da informação</strong> , apaixonado por programação, inovação e pela construção de aplicativos e sistemas modernos.</p>
+                    <p><strong>Formado em Gestão da produção industrial</strong>, sempre buscando aprender novas metodologias para resolução de problemas e sempre ultilizando a tecnologia ao meu favor. Além de programação e gestão, me interesso por jogos eletronicos, hardware e investimentos — áreas que alimentam minha visão sistêmica e estratégica.</p>
+                    <p>Acredito que <strong>aprender nunca é demais</strong> e que boas soluções nascem da combinação de criatividade, organização e muito esforço.</p>
+                </div>
+                <selection class="formacoes" id="formacoes">
+                <div class="formacoes-info">
+                    <h1>Formações</h1>
+                    <h2>Gestão da Tecnologia da Informação</h2>
+                    <p>Tecnólogo / superior em tecnologia - Cursando. Com foco em lógica de programação, desenvolvimento web, banco de dados, engenharia de software e redes.</p>
+                    <h3>Gestão da Produção industrial</h3>
+                    <p>Tecnólogo / superior em tecnologia. Com foco analise de produção, design de produtos, blueprints e processos de fabricação.</p>
+                </div>
+                <selection class="contato" id="contato">
+                <div class="contato">
+                    <h1>Contatos</h1>
+                    <a href="https://github.com/moraro" target="_blank">
+                        <div>
+                            <span>GitHub</span>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
+                        <div>
+                            <span>LinkedIn</span>
+                        </div>
+                    </a>
+                    <a href="mailto:vinimoraro644@gmail.com">
+                        <div>
+                            <span>E-mail</span>
+                        </div>
+                    </a>
+                </div>
+    </body>
+</html>
