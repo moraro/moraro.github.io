@@ -168,58 +168,48 @@ a {
 
 /*CONTATO*/
 
-.contato h1 {
+.contato {
+    background-color: #1a1a1a;
+    padding: 64px 32px;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contato-info h1 {
     font-size: 2rem;
     color: #c8a84b;
     border-left: 4px solid #c8a84b;
     padding-left: 16px;
-    align-self: flex-start;
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
 }
 
-.contato {
-    background-color: #1a1a1a;
-    padding: 32px 140px;
+.contato-links {
     display: flex;
-    gap: 50px;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-.contato a {
+.contato-links a {
     display: flex;
-    width: 100%;
-    max-width: 800px;
-    border: 1px solid #333;
-    border-radius: 8px;
-    padding: 16px 32px;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    transition: border-color 0.2s, background-color 0.2s;
+    flex: 1 1 150px;
+    padding: 20px 16px;
+    border: 1px solid #333;
     border-left: 4px solid #c8a84b;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    color: #c8a84b;
+    letter-spacing: 1px;
+    transition: border-color 0.2s, background-color 0.2s;
 }
 
-.contato a:hover {
+.contato-links a:hover {
     border-color: #c8a84b;
     background-color: #222;
-}
-
-.contato a div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-
-.contato a div span:first-child {
-    font-size: 2rem;
-    color: #c8a84b;
-    font-weight: bold;
-}
-
-.contato a div span:last-child {
-    font-family: Bebas Neue, serif;
-    font-size: 2rem;
-    color: #6e5d28;
-    text-align: right;
 }
